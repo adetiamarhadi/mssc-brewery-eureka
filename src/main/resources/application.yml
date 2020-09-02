@@ -12,3 +12,7 @@ logging:
       netflix:
         eureka: off
         discovery: off
+
+spring:
+  zipkin:
+    baseUrl: http://localhost:9411/
